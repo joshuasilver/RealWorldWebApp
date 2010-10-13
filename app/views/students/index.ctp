@@ -20,3 +20,5 @@
     </tr>
     <?php endforeach; ?>
 </table>
+
+<?php echo $html->link("Add Student", array('controller' => 'students', 'action' => 'add')); ?>
